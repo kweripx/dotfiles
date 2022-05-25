@@ -57,8 +57,29 @@ git config --global user.name 'kweripx'
 git config --global user.email '48696356+kweripx@users.noreply.github.com'
 cp .oh-my-zsh ~/
 cp .zshrc ~/
-cp .icons ~/
-cp .themes ~/
-sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /opt/Hyper/hyper 50
 ssh-keygen -t rsa -b 4096 -C "48696356+kweripx@users.noreply.github.com"
 git clone git@github.com:kweripx/dotfiles.git ~/Documentos/Stuffs/dotfiles
+
+# Steam and comunication apps
+
+apt search steam
+sudo apt install steam
+sudo apt update
+sudo apt install python3-pip
+pip3 install protonup
+source ~/.profile
+
+# GameHub
+
+apt search gamehub
+sudo apt install com.github.tkashkin.gamehub
+
+# Lutris
+
+apt search lutris
+sudo apt install lutris
+
+# Discord
+
+sudo apt install discord
+sudo apt-cache policy discord
