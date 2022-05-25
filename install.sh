@@ -20,6 +20,7 @@ sudo apt update && sudo apt install yarn
 sudo apt-get install zsh
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
+sudo apt-get install git-all
 sudo apt-get install docker
 sudo apt-get install docker-compose
 sudo apt-get install neovim
