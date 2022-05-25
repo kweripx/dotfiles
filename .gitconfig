@@ -1,0 +1,7 @@
+[user]
+	email = vitor.hugoqueiroz11@gmail.com
+	name = kweripx
+[core]
+	editor = vscode
+[credential]
+	helper = cache
