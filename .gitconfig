@@ -2,6 +2,17 @@
 	email = 48696356+kweripx@users.noreply.github.com
 	name = kweripx
 [core]
-	editor = vscode
+	editor = code --wait
+	autocrlf = input
 [credential]
 	helper = cache
+[init]
+  defaultBranch = main
+[alias]
+  st = status
+  co = checkout
+  br = branch
+  cm = commit
+  lg = log --oneline --graph --decorate
+[push]
+  default = simple
